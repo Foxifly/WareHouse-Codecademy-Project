@@ -7,6 +7,8 @@ WareHouse is a fake company imagined by Codecademy for the final project of the 
 ## Overview
 The website was redesigned to meet accessibility expectations. To fix the layout, I added more color and more layout features to really make the site stand out on all media screens.
 
+A copy of Task 1 of this Capstone Project can be found [here](https://docs.google.com/document/d/1OIJ-hLm4YKNV9MwbuE5HKrqas3wks1StLgSQe081fyU/edit?usp=sharing). This was shared on slack for peer feedback.
+
 Additional Features: 
 * Responsive design among all pages built to work with all screens.
 * Animated banner on the front page that helps brand warehouse more in `index.html`
