@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>WareHouse | Jobs</title>
+		<!--Viewport-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--CSS-->
+		<link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/base.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/jobs.css">
+		<!--Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<div role="banner" class="image-container-logo">
+				<a href="index.html"><img alt="blue WareHouse logo" src="resources/img/warehouse-logo.svg"></a>
+			</div>
+			<div role="search" class="search-bar">
+				<input aria-label="search" type="text" name="search" placeholder="Search for items">
+				<a aria-label="Search Button" href="" class="icon"><img alt="search icon" src="resources/img/search.svg"></a>
+			</div>
+			<a href="cart.html" class="button cart">Cart <img alt="cart icon" src="resources/img/cart.svg"></a>
+		</header>
+		<!-- Navigation -->
+		<nav aria-label="Website Navigation">
+			<ul role="menu">
+				<li role="menuitem"><a href="products.html">Products</a></li>
+				<li role="menuitem"><a href="about.html">About</a></li>
+				<li role="menuitem"><a href="deals.html">Deals</a></li>
+				<li role="menuitem"><a href="sell.html">Sell</a></li>
+				<li role="menuitem"><a href="help.html">Help</a></li>
+			</ul>
+		</nav>
+		<!-- Job List Section -->
+		<div id="main" class="jobs">
+			<h1>Jobs</h1>
+			<h2>Find your dream career with WareHouse</h2>
+			<!-- Job Search Bar -->
+			<div role="document" class="grid">
+				<form>
+					<div role="textbox" id="name-pos" class="field">
+						<label for="pos-title">Position Title</label>
+						<input id="pos-title" class="positon-input" type="text" name="name" placeholder="Desired position title">
+					</div>
+					<div role="textbox" id="loc-pos" class="field">
+						<label for="pos-input">Location</label>
+						<input id="pos-input" class="positon-input" type="text" name="location" placeholder="Desired location">
+					</div>
+					<a href="#" class="go-button">Go</a>
+				</form>
+				<!-- Recently Posted Job List -->
+				<h3 id="recently-posted">Recently Posted</h3>
+				<div role="list" class="job-list">
+					<div role="listitem" aria-labelledby="recently-posted" aria-describedby="job-title-1" class="job">
+						<h4 id="job-title-1">Director, Showroom Experience</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem"  aria-labelledby="recently-posted" aria-describedby="job-title-2" class="job">
+						<h4 id="job-title-2">Senior Manager, Showroom Experience</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem"  aria-labelledby="recently-posted" aria-describedby="job-title-3" class="job">
+						<h4 id="job-title-3">Executive Assistant</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem"  aria-labelledby="recently-posted" aria-describedby="job-title-4" class="job">
+						<h4 id="job-title-4">Marketing Manager, Digital Acquisition</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem"  aria-labelledby="recently-posted" aria-describedby="job-title-5" class="job">
+						<h4 id="job-title-5">Seniore Software Engineer</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem"  aria-labelledby="recently-posted" aria-describedby="job-title-6" class="job">
+						<h4 id="job-title-6">Principal Researcher</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem"  aria-labelledby="recently-posted" aria-describedby="job-title-7" class="job">
+						<h4 id="job-title-7">Software Engineer, Campus Recruiter</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem" aria-labelledby="recently-posted" aria-describedby="job-title-8" class="job">
+						<h4 id="job-title-8">Staff Engineer</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem"  aria-labelledby="recently-posted" aria-describedby="job-title-9" class="job">
+						<h4 id="job-title-9">Director of Data Engineering</h4>
+						<span>New York, NY</span>
+					</div>
+				</div>
+				<button class="button" id="see-all-jobs">See All Open Jobs</button>
+			</div>
+		</div>
+		<!-- Footer -->
+		<footer>
+			<img class="footer-logo" alt="warehouse logo" src="resources/img/warehouse-logo-black.svg">
+			<section aria-label="footer section" class="links">
+				<h4 id="get-to-know-us">Get to know us</h4>
+				<a aria-labelledby="get-to-know-us" class="footer-link" href="about.html">About</a>
+				<a aria-labelledby="get-to-know-us" class="footer-link" href="jobs.html">Careers</a>
+				<a aria-labelledby="get-to-know-us" class="footer-link" href="#">Search</a>
+			</section>
+			<section aria-label="footer section" class="links">
+				<h4 id="our-products">Our Products</h4>
+				<a aria-labelledby="our-products" class="footer-link" href="products.html">View Products</a>
+				<a aria-labelledby="our-products" class="footer-link" href="deals.html">Shop Deals</a>
+				<a aria-labelledby="our-products" class="footer-link" href="sell.html">Sell on WareHouse</a>
+			</section>
+			<section aria-label="footer section" class="links">
+				<h4 id="help">Help</h4>
+				<a aria-labelledby="help" class="footer-link" href="contact.html">Contact us</a>
+				<a aria-labelledby="help" class="footer-link" href="contact.html">Report a problem</a>
+				<a aria-labelledby="help" class="footer-link" href="#">Privacy Policy</a>
+			</section>
+		</footer>
+	</body>
+</html>

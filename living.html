@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>WareHouse | Living Room</title>
+      <!--Viewport-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--CSS-->
+      <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/base.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/living.css">
+      <!--Fonts-->
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
+  		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+  		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Header -->
+      <header>
+         <div role="banner" class="image-container-logo">
+            <a href="index.html"><img alt="blue WareHouse logo" src="resources/img/warehouse-logo.svg"></a>
+         </div>
+         <div role="search" class="search-bar">
+            <input aria-label="search" type="text" name="search" placeholder="Search for items">
+            <a aria-label="Search Button" href="" class="icon"><img alt="search icon" src="resources/img/search.svg"></a>
+         </div>
+         <a href="cart.html" class="button cart">Cart <img alt="cart icon" src="resources/img/cart.svg"></a>
+      </header>
+      <!-- Navigation -->
+      <nav aria-label="Website Navigation">
+         <ul role="menu">
+            <li role="menuitem"><a href="products.html">Products</a></li>
+            <li role="menuitem"><a href="about.html">About</a></li>
+            <li role="menuitem"><a href="deals.html">Deals</a></li>
+            <li role="menuitem"><a href="sell.html">Sell</a></li>
+            <li role="menuitem"><a href="help.html">Help</a></li>
+         </ul>
+      </nav>
+      <main>
+         <h1 id="living">Living Room</h1>
+         <h2 id="living-desc">Shop the hottest styles for your living room</h2>
+         <div role="document" class="grid">
+            <article aria-labelledby="living" class="products">
+               <!-- Product Categories -->
+               <div aria-labelledby="living" aria-describedby="living-desc" class="product-list-section">
+                  <ul role="menu" class="breadcrumb">
+                     <li role="menuitem"><a href="products.html">All Products</a></li>
+                     <li role="menuitem">Living Room</li>
+                  </ul>
+                  <div role="list" class="product-list">
+                     <a href="sofas.html" class="product-item">
+                        <div role="listitem" aria-labelledby="head-sofa" aria-describedby="description-sofa" class="image-container">
+                           <img alt="sofas" src="resources/img/living/sofas.jpg">
+                        </div>
+                        <div id="description-sofa" class="description">
+                           <h3 id="head-sofa">Sofas</h3>
+                        </div>
+                     </a>
+                     <a href="chairs.html" class="product-item">
+                        <div  role="listitem" aria-labelledby="head-chairs" aria-describedby="description-chairs" class="image-container">
+                           <img alt="chairs" src="resources/img/living/chairs.jpg">
+                        </div>
+                        <div id="description-chairs" class="description">
+                           <h3 id="head-chairs">Chairs</h3>
+                        </div>
+                     </a>
+                     <a href="tables.html" class="product-item">
+                        <div role="listitem" aria-labelledby="head-tables" aria-describedby="description-tabl" class="image-container">
+                           <img alt="tables" src="resources/img/living/tables.jpg">
+                        </div>
+                        <div id="description-tabl" class="description">
+                           <h3 id="head-tables">Tables</h3>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </article>
+         </div>
+      </main>
+      <!-- Footer -->
+  		<footer>
+  			<img class="footer-logo" alt="warehouse logo" src="resources/img/warehouse-logo-black.svg">
+  			<section aria-label="footer section" class="links">
+  				<h4 id="get-to-know-us">Get to know us</h4>
+  				<a aria-labelledby="get-to-know-us" class="footer-link" href="about.html">About</a>
+  				<a aria-labelledby="get-to-know-us" class="footer-link" href="jobs.html">Careers</a>
+  				<a aria-labelledby="get-to-know-us" class="footer-link" href="#">Search</a>
+  			</section>
+  			<section aria-label="footer section" class="links">
+  				<h4 id="our-products">Our Products</h4>
+  				<a aria-labelledby="our-products" class="footer-link" href="products.html">View Products</a>
+  				<a aria-labelledby="our-products" class="footer-link" href="deals.html">Shop Deals</a>
+  				<a aria-labelledby="our-products" class="footer-link" href="sell.html">Sell on WareHouse</a>
+  			</section>
+  			<section aria-label="footer section" class="links">
+  				<h4 id="help">Help</h4>
+  				<a aria-labelledby="help" class="footer-link" href="contact.html">Contact us</a>
+  				<a aria-labelledby="help" class="footer-link" href="contact.html">Report a problem</a>
+  				<a aria-labelledby="help" class="footer-link" href="#">Privacy Policy</a>
+  			</section>
+  		</footer>
+  	</body>
+  </html>

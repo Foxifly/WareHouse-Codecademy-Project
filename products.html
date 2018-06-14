@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>WareHouse | Products</title>
+      <!--Viewport-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--CSS-->
+      <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/base.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/products.css">
+      <!--Fonts-->
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Header -->
+      <header>
+         <div role="banner" class="image-container-logo">
+            <a href="index.html"><img alt="blue WareHouse logo" src="resources/img/warehouse-logo.svg"></a>
+         </div>
+         <div role="search" class="search-bar">
+            <input aria-label="search" type="text" name="search" placeholder="Search for items">
+            <a aria-label="Search Button" href="" class="icon"><img alt="search icon" src="resources/img/search.svg"></a>
+         </div>
+         <a href="cart.html" class="button cart">Cart <img alt="cart icon" src="resources/img/cart.svg"></a>
+      </header>
+      <!-- Navigation -->
+      <nav aria-label="Website Navigation">
+         <ul role="menu">
+            <li role="menuitem"><a href="products.html">Products</a></li>
+            <li role="menuitem"><a href="about.html">About</a></li>
+            <li role="menuitem"><a href="deals.html">Deals</a></li>
+            <li role="menuitem"><a href="sell.html">Sell</a></li>
+            <li role="menuitem"><a href="help.html">Help</a></li>
+         </ul>
+      </nav>
+      <main class="grid">
+         <div role="document" class="products">
+            <!-- Categories -->
+            <article class="product-list-section">
+               <h1 id="products">PRODUCTS</h1>
+               <h2 id="category">Select a Category</h2>
+               <div role="list" aria-labelledby="products" class="product-list">
+                  <a  href="living.html" class="product-item">
+                     <div aria-describedby="description-living" aria-labelledby="category" role="listitem" class="image-container">
+                        <img alt="living room scene" src="resources/img/products/living-room.jpg">
+                     </div>
+                     <div id="description-living" class="description">
+                        <h3>Living Room</h3>
+                     </div>
+                  </a>
+                  <a  href="#" class="product-item">
+                     <div aria-describedby="description-bed" aria-labelledby="category" role="listitem" class="image-container">
+                        <img alt="bedroom scene" src="resources/img/products/bedroom.jpg">
+                     </div>
+                     <div id="description-bed" class="description">
+                        <h3>Bedroom</h3>
+                     </div>
+                  </a>
+                  <a  href="#" class="product-item">
+                     <div aria-describedby="description-bath" aria-labelledby="category" role="listitem" class="image-container">
+                        <img alt="bathroom scene" src="resources/img/products/bathroom.jpg">
+                     </div>
+                     <div id="description-bath" class="description">
+                        <h3>Bathroom</h3>
+                     </div>
+                  </a>
+                  <a  href="#" class="product-item">
+                     <div aria-describedby="description-din" aria-labelledby="category" role="listitem" class="image-container">
+                        <img alt="dining room scene" src="resources/img/products/dining-room.jpg">
+                     </div>
+                     <div id="description-din" class="description">
+                        <h3>Dining Room</h3>
+                     </div>
+                  </a>
+                  <a  href="#" class="product-item">
+                     <div aria-describedby="description-kitc" aria-labelledby="category" role="listitem" class="image-container">
+                        <img alt="kitchen scene" src="resources/img/products/kitchen.jpg">
+                     </div>
+                     <div id="description-kitc" class="description">
+                        <h3>Kitchen</h3>
+                     </div>
+                  </a>
+                  <a  href="#" class="product-item ">
+                     <div aria-describedby="description-lamp" aria-labelledby="category" role="listitem" class="image-container">
+                        <img alt="lamps and lights" src="resources/img/products/lighting.jpg">
+                     </div>
+                     <div id="description-lamp" class="description">
+                        <h3>Lighting</h3>
+                     </div>
+                  </a>
+                  <a  href="#" class="product-item initial-hidden">
+                     <div aria-describedby="description-off" aria-labelledby="category" role="listitem" class="image-container">
+                        <img alt="office scene" src="resources/img/products/office.jpg">
+                     </div>
+                     <div id="description-off" class="description">
+                        <h3>Office + Storage</h3>
+                     </div>
+                  </a>
+                  <a  href="#" class="product-item initial-hidden">
+                     <div aria-describedby="description-pat" aria-labelledby="category" role="listitem" class="image-container">
+                        <img alt="outdoor patio scene" src="resources/img/products/patio.jpg">
+                     </div>
+                     <div id="description-pat" class="description">
+                        <h3>Patio</h3>
+                     </div>
+                  </a>
+                  <a  href="#" class="product-item initial-hidden">
+                     <div aria-describedby="description-tool" aria-labelledby="category" role="listitem" class="image-container">
+                        <img alt="tools" src="resources/img/products/tools.jpg">
+                     </div>
+                     <div id="description-tool" class="description">
+                        <h3>Tools</h3>
+                     </div>
+                  </a>
+               </div>
+               <div aria-labelledby="view-button" class="button-container">
+                  <button role="link" id="view-button" class="view-button">Show More</button>
+               </div>
+            </article>
+         </div>
+      </main>
+      <!-- Footer -->
+  		<footer>
+  			<img class="footer-logo" alt="warehouse logo" src="resources/img/warehouse-logo-black.svg">
+  			<section aria-label="footer section" class="links">
+  				<h4 id="get-to-know-us">Get to know us</h4>
+  				<a aria-labelledby="get-to-know-us" class="footer-link" href="about.html">About</a>
+  				<a aria-labelledby="get-to-know-us" class="footer-link" href="jobs.html">Careers</a>
+  				<a aria-labelledby="get-to-know-us" class="footer-link" href="#">Search</a>
+  			</section>
+  			<section aria-label="footer section" class="links">
+  				<h4 id="our-products">Our Products</h4>
+  				<a aria-labelledby="our-products" class="footer-link" href="products.html">View Products</a>
+  				<a aria-labelledby="our-products" class="footer-link" href="deals.html">Shop Deals</a>
+  				<a aria-labelledby="our-products" class="footer-link" href="sell.html">Sell on WareHouse</a>
+  			</section>
+  			<section aria-label="footer section" class="links">
+  				<h4 id="help">Help</h4>
+  				<a aria-labelledby="help" class="footer-link" href="contact.html">Contact us</a>
+  				<a aria-labelledby="help" class="footer-link" href="contact.html">Report a problem</a>
+  				<a aria-labelledby="help" class="footer-link" href="#">Privacy Policy</a>
+  			</section>
+  		</footer>
+      <script src="resources/js/products.js"></script>
+  	</body>
+  </html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>WareHouse | Sell</title>
+      <!--Viewport-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--CSS-->
+      <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/base.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/sell.css">
+      <!--Fonts-->
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Header -->
+      <header>
+         <div role="banner" class="image-container-logo">
+            <a href="index.html"><img alt="blue WareHouse logo" src="resources/img/warehouse-logo.svg"></a>
+         </div>
+         <div role="search" class="search-bar">
+            <input aria-label="search" type="text" name="search" placeholder="Search for items">
+            <a aria-label="Search Button" href="" class="icon"><img alt="search icon" src="resources/img/search.svg"></a>
+         </div>
+         <a href="cart.html" class="button cart">Cart <img alt="cart icon" src="resources/img/cart.svg"></a>
+      </header>
+      <!-- Navigation -->
+      <nav aria-label="Website Navigation">
+         <ul role="menu">
+            <li role="menuitem"><a href="products.html">Products</a></li>
+            <li role="menuitem"><a href="about.html">About</a></li>
+            <li role="menuitem"><a href="deals.html">Deals</a></li>
+            <li role="menuitem"><a href="sell.html">Sell</a></li>
+            <li role="menuitem"><a href="help.html">Help</a></li>
+         </ul>
+      </nav>
+      <main class="grid">
+         <div aria-describedby="sell-desc" aria-labelledby="sell" class="sell">
+            <h1 id="sell">SELL</h1>
+            <h2 id="sell-desc">Have something to sell? Fill out the form below.</h2>
+            <form aria-label="Sell a product form" aria-describedby="sell-desc">
+               <div role="textbox" id="name" class="field">
+                  <label for="name-input">Product Name</label>
+                  <input class="input" type="text" name="name-input" id="name-input" placeholder="Name of product">
+               </div>
+               <div role="textbox" id="price" class="field">
+                  <label for="price-input">Price</label>
+                  <input class="input" type="number" name="price" id="price-input" placeholder="Asking price of product">
+               </div>
+               <div role="textbox" id="quantity" class="field">
+                  <label id="quantity-label" for="quantity-input">Quantity</label>
+                  <select class="input" id="quantity-input" name="quantity-input">
+                     <option value="100">&lt;100</option>
+                     <option value="200">100-200</option>
+                     <option value="300">200-300</option>
+                     <option value="400">300-400</option>
+                     <option value="500">>500</option>
+                  </select>
+               </div>
+               <div  role="textbox" id="description" class="field">
+                  <label for="text-description">Description</label>
+                  <textarea id="text-description" class="input" name="description" placeholder="Description of product"></textarea>
+               </div>
+               <button class="button" id="submit">Submit</button>
+            </form>
+         </div>
+      </main>
+      <!-- Footer -->
+  		<footer>
+  			<img class="footer-logo" alt="warehouse logo" src="resources/img/warehouse-logo-black.svg">
+  			<section aria-label="footer section" class="links">
+  				<h3 id="get-to-know-us">Get to know us</h3>
+  				<a aria-labelledby="get-to-know-us" class="footer-link" href="about.html">About</a>
+  				<a aria-labelledby="get-to-know-us" class="footer-link" href="jobs.html">Careers</a>
+  				<a aria-labelledby="get-to-know-us" class="footer-link" href="#">Search</a>
+  			</section>
+  			<section aria-label="footer section" class="links">
+  				<h3 id="our-products">Our Products</h3>
+  				<a aria-labelledby="our-products" class="footer-link" href="products.html">View Products</a>
+  				<a aria-labelledby="our-products" class="footer-link" href="deals.html">Shop Deals</a>
+  				<a aria-labelledby="our-products" class="footer-link" href="sell.html">Sell on WareHouse</a>
+  			</section>
+  			<section aria-label="footer section" class="links">
+  				<h3 id="help">Help</h3>
+  				<a aria-labelledby="help" class="footer-link" href="contact.html">Contact us</a>
+  				<a aria-labelledby="help" class="footer-link" href="contact.html">Report a problem</a>
+  				<a aria-labelledby="help" class="footer-link" href="#">Privacy Policy</a>
+  			</section>
+  		</footer>
+  	</body>
+  </html>

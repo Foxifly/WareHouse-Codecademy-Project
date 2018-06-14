@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>WareHouse | Home</title>
+      <!--Viewport-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--CSS-->
+      <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/base.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/index.css">
+      <!--Fonts-->
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Header -->
+      <header>
+         <div role="banner" class="image-container-logo">
+            <a href="index.html"><img alt="blue WareHouse logo" src="resources/img/warehouse-logo.svg"></a>
+         </div>
+         <div role="search" class="search-bar">
+            <input aria-label="search" type="text" name="search" placeholder="Search for items">
+            <a aria-label="Search Button" href="" class="icon"><img alt="search icon" src="resources/img/search.svg"></a>
+         </div>
+         <a href="cart.html" class="button cart">Cart <img alt="cart icon" src="resources/img/cart.svg"></a>
+      </header>
+      <!-- Navigation -->
+      <nav aria-label="Website Navigation">
+         <ul role="menu">
+            <li role="menuitem"><a href="products.html">Products</a></li>
+            <li role="menuitem"><a href="about.html">About</a></li>
+            <li role="menuitem"><a href="deals.html">Deals</a></li>
+            <li role="menuitem"><a href="sell.html">Sell</a></li>
+            <li role="menuitem"><a href="help.html">Help</a></li>
+         </ul>
+      </nav>
+      <!-- Hero Section -->
+      <main>
+         <article id="main-label" class="landing">
+            <div class="hero">
+               <div class="overlay">
+                  <h1>WARE<img alt="warehouse house svg logo" class="house-logo" src="resources/img/logo-house.svg">HOUSE</h1>
+                  <p role="presentation" class="description">Think about
+                  <p class="changing-description"></p>
+                  <div class="shop-dining">
+                     <a role="button" href="" class="shop-dining-link">Shop Dining Tables</a>
+                  </div>
+               </div>
+            </div>
+         </article>
+         <!-- Products Preview Section -->
+         <div role="document" class="grid">
+            <article aria-labelledby="main-label" class="products">
+               <!-- Product Categories -->
+               <h2 id="shop-by-category">SHOP BY CATEGORY</h2>
+               <section aria-labelledby="shop-by-category" class="product-list categories">
+                  <a href="living.html" class="product-category">
+                     <div class="image-container">
+                        <img alt="image of living room scene with Living Room text overlay" src="resources/img/home/living-room.jpg">
+                     </div>
+                  </a>
+                  <a href="#" class="product-category">
+                     <div class="image-container">
+                        <img alt="image of bedroom scene with Bedroom text overlay" src="resources/img/home/bedroom.jpg">
+                     </div>
+                  </a>
+                  <a href="#" class="product-category">
+                     <div class="image-container">
+                        <img alt="image of bathroom scene with Bathroom text overlay" src="resources/img/home/bathroom.jpg">
+                     </div>
+                  </a>
+                  <a href="#" class="product-category">
+                     <div class="image-container">
+                        <img alt="image of Dining room scene with Dining Room text overlay" src="resources/img/home/dining-room.jpg">
+                     </div>
+                  </a>
+               </section>
+               <hr>
+               <!-- Recently Viewed Products -->
+               <h2 id="recently-viewed">RECENTLY VIEWED</h2>
+               <div id="list" role="list">
+                  <section aria-labelledby="recently-viewed" class="product-list">
+                     <a href="#" class="product-item">
+                        <div aria-describedby="description-chair" role="listitem" class="image-container">
+                           <img alt="A wooden chair in a wood floor scene" src="resources/img/home/yellow-chair.jpg">
+                        </div>
+                        <div id="description-chair" class="description">
+                           <h3>Yellow Chair</h3>
+                           <span class="price">$189</span>
+                        </div>
+                     </a>
+                     <a href="#" class="product-item">
+                        <div aria-describedby="description-table" role="listitem" class="image-container">
+                           <img alt="Small circular white table with black chairs" src="resources/img/home/round-table.jpg">
+                        </div>
+                        <div id="description-table" class="description">
+                           <h3>Round Table</h3>
+                           <span class="price">$249</span>
+                        </div>
+                     </a>
+                     <a href="#" class="product-item">
+                        <div aria-describedby="description-wt-chair" role="listitem" class="image-container">
+                           <img alt="small rustic white chair" src="resources/img/home/white-chair.jpg">
+                        </div>
+                        <div id="description-wt-chair" class="description">
+                           <h3>White Chair</h3>
+                           <span class="price">$99</span>
+                        </div>
+                     </a>
+                     <a href="#" class="product-item">
+                        <div aria-describedby="description-lamp" role="listitem" class="image-container">
+                           <img alt="small white desk lamp" src="resources/img/home/desk-lamp.jpg">
+                        </div>
+                        <div id="description-lamp" class="description">
+                           <h3>Desk Lamp</h3>
+                           <span class="price">$25</span>
+                        </div>
+                     </a>
+                  </section>
+               </div>
+            </article>
+         </div>
+      </main>
+      <footer>
+  			<img class="footer-logo" alt="warehouse logo" src="resources/img/warehouse-logo-black.svg">
+  			<section aria-label="footer section" class="links">
+  				<h4 id="get-to-know-us">Get to know us</h4>
+  				<a aria-labelledby="get-to-know-us" class="footer-link" href="about.html">About</a>
+  				<a aria-labelledby="get-to-know-us" class="footer-link" href="jobs.html">Careers</a>
+  				<a aria-labelledby="get-to-know-us" class="footer-link" href="#">Search</a>
+  			</section>
+  			<section aria-label="footer section" class="links">
+  				<h4 id="our-products">Our Products</h4>
+  				<a aria-labelledby="our-products" class="footer-link" href="products.html">View Products</a>
+  				<a aria-labelledby="our-products" class="footer-link" href="deals.html">Shop Deals</a>
+  				<a aria-labelledby="our-products" class="footer-link" href="sell.html">Sell on WareHouse</a>
+  			</section>
+  			<section aria-label="footer section" class="links">
+  				<h4 id="help">Help</h4>
+  				<a aria-labelledby="help" class="footer-link" href="contact.html">Contact us</a>
+  				<a aria-labelledby="help" class="footer-link" href="contact.html">Report a problem</a>
+  				<a aria-labelledby="help" class="footer-link" href="#">Privacy Policy</a>
+  			</section>
+  		</footer>
+      <script src="resources/js/index.js"></script>
+  	</body>
+  </html>

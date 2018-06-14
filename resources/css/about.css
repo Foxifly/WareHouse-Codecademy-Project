@@ -1,0 +1,139 @@
+/* Headings */
+
+h1 {
+  padding: 10.5rem 0;
+  color: #3d90bd;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 5px;
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  margin: 2rem 0 0.5rem 0;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #1e485e;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #28475c;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+hr {
+  width: 40%;
+}
+
+/* Grid */
+
+.grid {
+  display: grid;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Hero */
+
+.hero {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 25.75rem;
+  border-radius: 1.5rem;
+  background-image: url("../img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.overlay {
+  border-radius: 1.5rem;
+  content: " ";
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.house-logo {
+  width: 43px;
+  padding: 0 5px 0 5px;
+}
+
+/* About Text */
+
+.about .information {
+  color: hsla(0, 0%, 29%, 1);
+  width: 55%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.about p,
+.join p {
+  padding-bottom: 2rem;
+  font-size: inherit;
+  line-height: 1.8;
+}
+
+.about,
+.join {
+  display: grid;
+  justify-items: center;
+  border-radius: 2px;
+  background-color: hsla(0, 0%, 100%, 1);
+}
+
+.join {
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    padding: 5rem 0;
+  }
+  h2,
+  h3 {
+    padding-top: 1rem;
+  }
+  .hero {
+    width: 100%;
+    border-radius: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+  .overlay {
+    border-radius: 0;
+  }
+  .grid {
+    width: 100%;
+  }
+  .about .information {
+    width: 86%;
+    margin: 0 auto;
+  }
+  footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  nav li {
+    padding: 6px;
+    list-style: none;
+    display: inline;
+    color: black;
+  }
+  nav li:hover {
+    color: #28475c;
+    font-weight: bold;
+  }
+  .search-bar,
+  .cart {
+    margin-top: 5px;
+  }
+}
